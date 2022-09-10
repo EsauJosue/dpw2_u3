@@ -10,12 +10,30 @@
 </head>
 <body>
 <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca.php">Acerca</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.php">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="departamentos.php">Departamentos</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.php">Contacto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="registro.php">Registrarse</a>

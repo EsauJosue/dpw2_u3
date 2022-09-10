@@ -1,11 +1,24 @@
 .content{
     max-width: 1110px;
-    height: 90vh;
-    margin: 10px auto;
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.table1{
+    max-width: 800px;
+    margin: 60px auto;
+    
+}
+.table1 th{
+    font-size: 1.5rem;
+}
+.table1 p{
+    text-align: justify;
+}
+.slides{
+    margin: 56px auto;
 }
 .form-insert{
     display: flex;
@@ -27,4 +40,46 @@
 }
 .inactive{
     display: none;
+}
+.textSlide{
+    background-color: black;
+    opacity: .7;
+}
+.table{
+    max-width: 800px;
+}
+.table2{
+    max-width: 1110px;
+    margin: 60px auto;
+    text-align: center;
+}
+.medicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1110px;
+    margin: 10px auto;
+}
+.medicos__item{
+    margin: 30px auto;
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px 20px;
+   
+
+}
+.medicos__item__img{
+    border-radius: 20px 20px 0 0 ;
+  
+}
+.medicos__item__nombre{
+    font-size: 1.5rem !important;
+    font-weight: 400;
+    margin: 3px 0;
+    
 }
