@@ -27,6 +27,8 @@ $aMaterno = $_SESSION['aMaterno'];
         echo 'No existen citas relacionadas al usuario.';
     }else{
         ?>
+        <div class="content-citas__box">
+        <?php include('sidebar.php');?>
         <table class="table table-striped-columns">
             <thead>
                 <tr>
@@ -61,10 +63,12 @@ $aMaterno = $_SESSION['aMaterno'];
                     
                 </tr>
             </tbody>
-        <?php
-    }
-?>
-</table>
+                    <?php
+                }
+            ?>
+            </table>
+    </div>
+       
 </section>
         <?php
     }

@@ -29,9 +29,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="departamentos.php">Departamentos</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.php">Contacto</a>
                         </li>
@@ -41,12 +38,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="login.php">Iniciar Sesion</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="registrarCita.php">Registrar Cita</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="consultar.php">Consultar Citas</a>
-                        </li> -->
                     </ul>
                 </div>
             </div>

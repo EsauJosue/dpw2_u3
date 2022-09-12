@@ -26,6 +26,8 @@ $citas = $consulta->fetchAll(PDO::FETCH_OBJ);
         echo 'No existen citas relacionadas al usuario.';
     }else{
         ?>
+        <div class="content-citas__box">
+        <?php include('sidebar.php');?>
         <table class="table table-striped-columns">
             <thead>
                 <tr>
@@ -66,8 +68,10 @@ $citas = $consulta->fetchAll(PDO::FETCH_OBJ);
        
         <?php
     }
-?>  
-</table>
+        ?>  
+    </table>
+        </div>
+       
 </section>
         <?php
     }
